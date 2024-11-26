@@ -42,6 +42,8 @@ public class Main {
             if (!scan.hasNextInt()) {
                 System.out.println("Inputan tidak valid");
                 continue;
+            }else{
+
             }
 
             // Membaca pilihan barang dari pengguna
@@ -84,6 +86,9 @@ public class Main {
 
         // Menampilkan total yang harus dibayar
         System.out.println("Total Yang Harus Dibayar : " + total_bayar);
+
+
+
     }
 }
 
